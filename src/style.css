@@ -1,0 +1,51 @@
+header {
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.my-text-intro {
+  margin-right: 30px;
+}
+
+.profile-img {
+  border-radius: 50%;
+  max-width: 400px;
+}
+
+.links-profile {
+  max-width: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.work-menu {
+  display: flex;
+  flex-direction: column;
+}
+.list-menu {
+  display: flex;
+  flex-direction: row;
+}
+p {
+  margin: 10px;
+}
+article {
+  background-color: aquamarine;
+  border-radius: 2rem;
+  max-width: 45vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.img-project {
+  width: 90%;
+}
+
+.link-articles {
+  display: flex;
+  justify-content: space-around;
+}
