@@ -1,17 +1,37 @@
+body {
+  max-width: 1400px;
+  margin: auto;
+  background-color: #f2f4fc;
+  border: #000 1px solid;
+}
 header {
-  margin: 50px;
+  margin-top: 4rem;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
+  border: #000 1px solid;
 }
 
 .my-text-intro {
-  margin-right: 30px;
+  margin-right: 60px;
+  font-size: 1.5rem;
+  text-align: justify;
+  margin-left: 0px;
+  border: #000 1px solid;
+}
+
+.photo-div {
+  border: #000 1px solid;
 }
 
 .profile-img {
   border-radius: 50%;
   max-width: 400px;
+}
+
+h2 {
+  text-align: center;
 }
 
 .links-profile {
@@ -28,12 +48,19 @@ header {
   display: flex;
   flex-direction: row;
 }
-p {
+.list-menu > p {
   margin: 10px;
 }
+
+.the-projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 article {
   background-color: aquamarine;
   border-radius: 2rem;
+  margin: 2vw;
   max-width: 45vw;
   display: flex;
   flex-direction: column;
@@ -43,6 +70,8 @@ article {
 
 .img-project {
   width: 90%;
+  border-radius: 2rem;
+  margin: auto;
 }
 
 .link-articles {
