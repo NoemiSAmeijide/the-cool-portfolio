@@ -4,11 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./src/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
   </head>
   <body>
-    <header>
+    <header class="mt-16 flex flex-row justify-between items-center">
       <!-- here goes the info -->
       <div class="my-text-intro">
         <p>
@@ -21,6 +28,25 @@
           JS. I would appreciate being in contact with the design department so
           I can provide the knowledge and experience I already have.
         </p>
+
+        <div class="links-profile">
+          <a
+            href=""
+            class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+          >
+            CV </a
+          ><a
+            href=""
+            class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+          >
+            Linkedin </a
+          ><a
+            href=""
+            class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+          >
+            Github
+          </a>
+        </div>
       </div>
       <!-- here goes the profile -->
       <div class="photo-div">
@@ -30,11 +56,6 @@
           class="profile-img"
         />
         <h2>Noemí Silvestre-Ameijide</h2>
-        <div class="links-profile">
-          <a href="">CV</a>
-          <a href="">Linkedin</a>
-          <a href="">Github</a>
-        </div>
       </div>
     </header>
     <main>
@@ -47,68 +68,139 @@
         </div>
       </div>
       <div class="the-projects">
-        <article>
-          <img src="./img/tori.jpg" alt="" class="img-project" />
-          <p>
-            This is the first project done in Frontend IronHack Bootcamp after
-            the first two weeks. The assignment was to duplicate a specific
-            website, in this case the website was this one: circle. The project
-            consisted in cloning the "main page", the "contact us" page and the
-            "project page" and making it responsive for mobiles and desktop.
-            Also we had to import the projects section information from a fake
-            API.
-          </p>
-          <div class="link-articles">
-            <a href="">Deployed</a>
-            <a href="">Github</a>
+        <article class="max-w-lg mx-auto">
+          <div
+            class="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm mb-5"
+          >
+            <a href="#">
+              <img
+                class="rounded-t-lg"
+                src="https://flowbite.com/docs/images/blog/image-1.jpg"
+                alt=""
+              />
+            </a>
+            <div class="p-5">
+              <a href="#">
+                <h5
+                  class="text-gray-900 font-bold text-2xl tracking-tight mb-2"
+                >
+                  Mid term project
+                </h5>
+              </a>
+              <p class="font-normal text-gray-700 mb-3">
+                This is the first project done in Frontend IronHack Bootcamp
+                after the first two weeks. The assignment was to duplicate a
+                specific website, in this case the website was this one: circle.
+                The project consisted in cloning the "main page", the "contact
+                us" page and the "project page" and making it responsive for
+                mobiles and desktop. Also we had to import the projects section
+                information from a fake API.
+              </p>
+              <div class="flex justify-around">
+                <a
+                  class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                  href="#"
+                >
+                  Deployed
+                </a>
+                <a
+                  class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                  href="#"
+                >
+                  Github
+                </a>
+              </div>
+            </div>
           </div>
         </article>
-        <article>
-          <img src="./img/tori.jpg" alt="" class="img-project" />
-          <p>
-            This is the first project done in Frontend IronHack Bootcamp after
-            the first two weeks. The assignment was to duplicate a specific
-            website, in this case the website was this one: circle. The project
-            consisted in cloning the "main page", the "contact us" page and the
-            "project page" and making it responsive for mobiles and desktop.
-            Also we had to import the projects section information from a fake
-            API.
-          </p>
-          <div class="link-articles">
-            <a href="">Deployed</a>
-            <a href="">Github</a>
+        <article class="max-w-lg mx-auto">
+          <div
+            class="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm mb-5"
+          >
+            <a href="#">
+              <img
+                class="rounded-t-lg"
+                src="https://flowbite.com/docs/images/blog/image-1.jpg"
+                alt=""
+              />
+            </a>
+            <div class="p-5">
+              <a href="#">
+                <h5
+                  class="text-gray-900 font-bold text-2xl tracking-tight mb-2"
+                >
+                  Mid term project
+                </h5>
+              </a>
+              <p class="font-normal text-gray-700 mb-3">
+                This is the first project done in Frontend IronHack Bootcamp
+                after the first two weeks. The assignment was to duplicate a
+                specific website, in this case the website was this one: circle.
+                The project consisted in cloning the "main page", the "contact
+                us" page and the "project page" and making it responsive for
+                mobiles and desktop. Also we had to import the projects section
+                information from a fake API.
+              </p>
+              <div class="flex justify-around">
+                <a
+                  class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                  href="#"
+                >
+                  Deployed
+                </a>
+                <a
+                  class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                  href="#"
+                >
+                  Github
+                </a>
+              </div>
+            </div>
           </div>
         </article>
-        <article>
-          <img src="./img/tori.jpg" alt="" class="img-project" />
-          <p>
-            This is the first project done in Frontend IronHack Bootcamp after
-            the first two weeks. The assignment was to duplicate a specific
-            website, in this case the website was this one: circle. The project
-            consisted in cloning the "main page", the "contact us" page and the
-            "project page" and making it responsive for mobiles and desktop.
-            Also we had to import the projects section information from a fake
-            API.
-          </p>
-          <div class="link-articles">
-            <a href="">Deployed</a>
-            <a href="">Github</a>
-          </div>
-        </article>
-        <article>
-          <img src="./img/tori.jpg" alt="" class="img-project" />
-          <p>
-            This is the first project done in Frontend IronHack Bootcamp after
-            the first two weeks. The assignment was to duplicate a specific
-            website, in this case the website was this one: circle. The project
-            consisted in cloning the "main page", the "contact us" page and the
-            "project page" and making it responsive for mobiles and desktop.
-            Also we had to import the projects section information from a fake
-            API.
-          </p>
-          <div class="link-articles">
-            <a href="">Deployed</a>
-            <a href="">Github</a>
+        <article class="max-w-lg mx-auto">
+          <div
+            class="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm mb-5"
+          >
+            <a href="#">
+              <img
+                class="rounded-t-lg"
+                src="https://flowbite.com/docs/images/blog/image-1.jpg"
+                alt=""
+              />
+            </a>
+            <div class="p-5">
+              <a href="#">
+                <h5
+                  class="text-gray-900 font-bold text-2xl tracking-tight mb-2"
+                >
+                  Mid term project
+                </h5>
+              </a>
+              <p class="font-normal text-gray-700 mb-3">
+                This is the first project done in Frontend IronHack Bootcamp
+                after the first two weeks. The assignment was to duplicate a
+                specific website, in this case the website was this one: circle.
+                The project consisted in cloning the "main page", the "contact
+                us" page and the "project page" and making it responsive for
+                mobiles and desktop. Also we had to import the projects section
+                information from a fake API.
+              </p>
+              <div class="flex justify-around">
+                <a
+                  class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                  href="#"
+                >
+                  Deployed
+                </a>
+                <a
+                  class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                  href="#"
+                >
+                  Github
+                </a>
+              </div>
+            </div>
           </div>
         </article>
       </div>

@@ -1,16 +1,11 @@
 body {
   max-width: 1400px;
-  margin: auto;
+  width: 90vw;
+  margin: 1rem auto;
+  /* margin-top: 12.5rem; */
+  font-family: "Roboto", sans-serif;
+  color: #222;
   background-color: #f2f4fc;
-  border: #000 1px solid;
-}
-header {
-  margin-top: 4rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  border: #000 1px solid;
 }
 
 .my-text-intro {
@@ -18,11 +13,6 @@ header {
   font-size: 1.5rem;
   text-align: justify;
   margin-left: 0px;
-  border: #000 1px solid;
-}
-
-.photo-div {
-  border: #000 1px solid;
 }
 
 .profile-img {
@@ -30,12 +20,8 @@ header {
   max-width: 400px;
 }
 
-h2 {
-  text-align: center;
-}
-
 .links-profile {
-  max-width: 400px;
+  margin-top: 2rem;
   display: flex;
   justify-content: space-around;
 }
@@ -55,17 +41,6 @@ h2 {
 .the-projects {
   display: flex;
   flex-wrap: wrap;
-}
-
-article {
-  background-color: aquamarine;
-  border-radius: 2rem;
-  margin: 2vw;
-  max-width: 45vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
 }
 
 .img-project {
